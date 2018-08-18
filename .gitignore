@@ -74,3 +74,10 @@ typings/
 .serverless
 
 # End of NodeJS
+
+### SailsJS ###
+
+# Temp folder
+.tmp
+
+# End of SailsJS

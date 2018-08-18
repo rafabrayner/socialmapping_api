@@ -28,6 +28,8 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
 
+  'get /bairros/get-all': 'EscolasController.getAll'
+
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
