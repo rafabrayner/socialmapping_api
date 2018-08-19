@@ -7,19 +7,19 @@
 
 module.exports = {
 
-  tableName: 'bairros',
+   tableName: 'bairros',
 
-  attributes: {
+   attributes: {
 
-    nome : { type: 'string', columnName: 'nome' },
+      nome: { type: 'string', columnName: 'nome' },
 
-    // Add a reference to Escolas
-    escolas: {
-      collection: 'escolas',
-      via: 'bairro'
-    }
+      // Add a reference to Escolas
+      escolas: {
+         collection: 'escolas',
+         via: 'bairro'
+      }
 
-  },
+   },
 
 };
 

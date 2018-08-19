@@ -28,7 +28,9 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
 
-  'get /bairros/get-all': 'EscolasController.getAll'
+  'get /bairros/get-all': 'EscolasController.getAll',
+
+  'post /send-alert': 'Alertas.send'
 
   /***************************************************************************
   *                                                                          *
